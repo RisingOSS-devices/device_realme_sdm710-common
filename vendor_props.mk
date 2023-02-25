@@ -104,6 +104,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.avoid_gfx_accel=true \
     ro.surface_flinger.protected_contents=true \
     debug.sf.disable_client_composition_cache=1 \
+    debug.sf.predict_hwc_composition_strategy=0 \
     ro.hardware.vulkan=adreno \
     ro.hardware.egl=adreno
 
